@@ -13,16 +13,41 @@
         h1 {
            font-family: Stockholm Type
         }
+        header {
+            background-color: #432564;
+            color: #fff;
+            padding: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-text {
+            margin: 0 130px 0 0;
+        }
+
+        .header-image {
+            max-width: 60px; 
+            height: auto;
+        }
       </style>
+
+      
     <title>Welcome House</title>
   </head>
 
   <body>
 
-    <section class="header">
-     <h1><b>Välkommen</b> till <b>Welcome House!</b></h1>
-
-     </section>
+    <header>
+      <h1 class="header-text">Välkommen till Welcome House!</h1>
+      <a href="index.html" target="_self">
+          <img src="sv.png" alt="Svenska" class="header-image">
+      <a href="index-en.html" target="_self">
+          <img src="en.png" alt="Engelska" class="header-image">
+      <a href="index-ar.html" target="_self">
+          <img src="ar.png" alt="arabiska" class="header-image">
+      </a>
+  </header>
   
     <br>
     <br>
