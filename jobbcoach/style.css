@@ -89,6 +89,23 @@ ul li {
   line-height: 3;
 }
 
+.ul-rtl {
+  list-style: none;
+  direction: rtl;
+  margin: 0px;
+  line-height: 3;
+  text-align: justify;
+}
+
+.ul-rtl li {
+  padding-right: 3rem;
+  background-image: url(bullet.png);
+  background-position: right;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  line-height: 3;
+}
+
 .header {
   background-color: #76368C;
   padding:50px 70px;
